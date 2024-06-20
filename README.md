@@ -9,7 +9,6 @@ Links para Informações Importantes <br>
 GitHub do Projeto: https://github.com/arthurohenrique/JWT-RestAPI <br>
 
 Informações sobre os Fluxos de Solicitação
-
 Login:<br>
 
 Endpoint: POST /login
