@@ -1,6 +1,5 @@
 # JWT-RestAPI
 
-Descrição de Microserviços
 A aplicação consiste em um serviço que utiliza JSON Web Tokens (JWT) para autenticação e autorização de usuários. Ela oferece endpoints para login, obtenção de informações do usuário e acesso restrito para administradores.
 
 Informações de Contato <br>
