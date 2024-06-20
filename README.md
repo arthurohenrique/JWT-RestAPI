@@ -3,11 +3,11 @@
 Descrição de Microserviços
 A aplicação consiste em um serviço que utiliza JSON Web Tokens (JWT) para autenticação e autorização de usuários. Ela oferece endpoints para login, obtenção de informações do usuário e acesso restrito para administradores.
 
-Informações de Contato
-Email: arthurhlsouza@gmail.com
-Telefone: (31)98580-8480
-Links para Informações Importantes
-GitHub do Projeto: https://github.com/arthurohenrique/JWT-RestAPI
+Informações de Contato <br>
+Email: arthurhlsouza@gmail.com <br>
+Telefone: (31)98580-8480 <br>
+Links para Informações Importantes <br>
+GitHub do Projeto: https://github.com/arthurohenrique/JWT-RestAPI <br>
 
 Informações sobre os Fluxos de Solicitação
 Login:
