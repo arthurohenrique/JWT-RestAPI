@@ -9,12 +9,14 @@ Links para Informações Importantes <br>
 GitHub do Projeto: https://github.com/arthurohenrique/JWT-RestAPI <br>
 
 Informações sobre os Fluxos de Solicitação
-Login:
+
+Login:<br>
 
 Endpoint: POST /login
 Descrição: Permite que um usuário faça login e receba um token JWT válido.
 Parâmetros: Objeto LoginRequest contendo username e password.
 Retorna: Token JWT válido.
+
 Obter Username a partir do Token:
 
 Endpoint: GET /username/{token}
@@ -27,6 +29,7 @@ Endpoint: GET /user
 Descrição: Retorna informações do usuário autenticado.
 Requerimentos: Autenticação JWT.
 Retorna: Nome do usuário autenticado.
+
 Acesso Restrito para Administradores:
 
 Endpoint: GET /admin
@@ -38,24 +41,29 @@ JwtRestApiApplication:
 
 Classe principal que inicia a aplicação Spring Boot.
 Pacote base para escaneamento: com.example
-SecurityConfig:
+
+SecurityConfig:<br>
 
 Configuração de segurança da aplicação.
 Define políticas de acesso e autenticação baseadas em HTTP Security.
 Dependências: Utiliza BCryptPasswordEncoder para criptografar senhas e configura usuários em memória.
-AuthController:
+
+AuthController:<br>
 
 Controlador REST que define endpoints para autenticação e autorização.
 Dependências: Usa o serviço AuthService para gerar tokens JWT e extrair informações de usuário.
-LoginRequest:
+
+LoginRequest:<br>
 
 Modelo que representa a requisição de login com username e password.
-JwtUtil:
+
+JwtUtil:<br>
 
 Utilitário para operações relacionadas a tokens JWT.
 Gera tokens JWT com tempo de expiração configurável.
 Extrai informações de usuário a partir de tokens JWT válidos.
-AuthService:
+
+AuthService:<br>
 
 Serviço que encapsula lógica de negócio para autenticação.
 Dependências: Usa JwtUtil para gerar tokens JWT e extrair informações de usuário.
