@@ -8,7 +8,7 @@ Telefone: (31)98580-8480 <br>
 Links para Informações Importantes <br>
 GitHub do Projeto: https://github.com/arthurohenrique/JWT-RestAPI <br>
 
-Informações sobre os Fluxos de Solicitação
+Informações sobre os Fluxos de Solicitação<br>
 Login:<br>
 
 Endpoint: POST /login
